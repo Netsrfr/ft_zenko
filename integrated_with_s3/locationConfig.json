@@ -1,0 +1,17 @@
+{
+    "us-east-1": {
+        "type": "file",
+        "legacyAwsBehavior": true,
+        "details": {}
+    },
+    "aws-test": {
+        "type": "aws_s3",
+        "legacyAwsBehavior": true,
+        "details": {
+            "awsEndpoint": "s3.amazonaws.com",
+            "bucketName": "42.zenko.tagging",
+            "bucketMatch": false,
+            "credentialsProfile": "default"
+        }
+    }
+}
